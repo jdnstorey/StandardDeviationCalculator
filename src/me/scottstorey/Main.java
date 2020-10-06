@@ -1,24 +1,23 @@
 package me.scottstorey;
 
-import sun.security.krb5.internal.EncKrbPrivPart;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
 
-    static Scanner scanner = new Scanner(System.in);
-    static ArrayList<Double> values = new ArrayList<>();
-    static ArrayList<Double> brackets = new ArrayList<>();
-    static ArrayList<Double> bracketSquared = new ArrayList<>();
+    Scanner scanner = new Scanner(System.in);
+    ArrayList<Double> values = new ArrayList<>();
+    ArrayList<Double> brackets = new ArrayList<>();
+    ArrayList<Double> bracketSquared = new ArrayList<>();
 
-    static double userData;
-    static double sum = 0;
-    static double mean;
-    static double sumOfDiff = 0;
-    static double userDataMin1;
-    static double diffSumMinus1;
+    double userData;
+    double sum = 0;
+    double mean;
+    double sumOfDiff = 0;
+    double userDataMin1;
+    double diffSumMinus1;
 
-    public static void main(String[] args) {
+    public void method() {
         System.out.println();
         System.out.println("How many pieces of data are there");
         userData = scanner.nextDouble();
@@ -64,5 +63,10 @@ public class Main {
         System.out.println();
         System.out.println();
         System.exit(0);
+    }
+
+    public static void main(String[] args) {
+        Main main = new Main();
+        main.method();
     }
 }
