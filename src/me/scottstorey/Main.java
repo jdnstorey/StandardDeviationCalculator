@@ -5,7 +5,6 @@ import java.util.*;
 public class Main {
 
     static Scanner scanner = new Scanner(System.in);
-
     static ArrayList<Double> values = new ArrayList<>();
     static ArrayList<Double> brackets = new ArrayList<>();
     static ArrayList<Double> bracketSquared = new ArrayList<>();
