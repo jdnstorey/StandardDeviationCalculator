@@ -38,7 +38,8 @@ public class Main {
         mean = sum / userData;
         //System.out.println("Mean: " + mean);
 
-        for(int c = 0; c < userData; c++){            brackets.add(values.get(c) - mean);
+        for(int c = 0; c < userData; c++){
+            brackets.add(values.get(c) - mean);
         }
         //System.out.println(brackets);
 
