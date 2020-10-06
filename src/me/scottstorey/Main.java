@@ -57,7 +57,6 @@ public class Main {
         diffSumMinus1 = sumOfDiff / userDataMin1;
         //System.out.println("diffSumMinus1: " + diffSumMinus1);
 
-
         System.out.println("Standard Deviation: " + Math.sqrt(diffSumMinus1));
         System.out.println("");
         System.out.println("");
