@@ -62,6 +62,6 @@ public class Main {
         System.out.println("");
         System.out.println("");
         System.out.println("");
-        System.exit(10);
+        System.exit(1);
     }
 }
