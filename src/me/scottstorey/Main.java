@@ -1,5 +1,7 @@
 package me.scottstorey;
 
+import sun.security.krb5.internal.EncKrbPrivPart;
+
 import java.util.*;
 
 public class Main {
@@ -17,15 +19,15 @@ public class Main {
     static double diffSumMinus1;
 
     public static void main(String[] args) {
-        System.out.println("");
+        System.out.println();
         System.out.println("How many pieces of data are there");
         userData = scanner.nextDouble();
-        System.out.println("");
+        System.out.println();
 
         for(int a = 0; a < userData; a++){
             System.out.println("Please write a piece of data");
             values.add(scanner.nextDouble());
-            System.out.println("");
+            System.out.println();
         }
         scanner.close();
 
@@ -57,10 +59,10 @@ public class Main {
         //System.out.println("diffSumMinus1: " + diffSumMinus1);
 
         System.out.println("Standard Deviation: " + Math.sqrt(diffSumMinus1));
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.exit(1);
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.exit(0);
     }
 }
