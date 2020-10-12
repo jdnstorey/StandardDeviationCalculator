@@ -26,7 +26,6 @@ public class Main {
         for(int a = 0; a < userData; a++){
             System.out.println("Please write a piece of data");
             values.add(scanner.nextDouble());
-            System.out.println();
         }
         scanner.close();
 
